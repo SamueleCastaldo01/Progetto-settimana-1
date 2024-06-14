@@ -35,9 +35,15 @@ header {
 
 /*main */
 
+.corsoWeb, .tuttiTi, .garantisce, .schede {
+    padding: 30px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+/* corsoWeb */
 
 .corsoWeb {
-    padding: 40px;
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: center;
@@ -61,9 +67,7 @@ button a {
     text-decoration: none;
 }
 
-.tuttiTi {
-    padding: 40px;
-}
+/* tuttiTi */
 
 .tuttiTi p {
  padding-top: 15px;
@@ -76,12 +80,15 @@ button a {
     border-radius: 300px;
 }
 
+/* garantisce */
+
 .garantisce, .garantisce footer {
     background-color: #e22d0e;
 }
 
 .garantisce {
-    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     color: white;
 }
 
@@ -96,6 +103,7 @@ button a {
 }
 
 .garantisce footer {
+    padding-top: 10px;
     font-size: 24px;
     line-height: 1.1;
 }
@@ -108,12 +116,42 @@ button a {
     font-style: italic;
 }
 
+/* schede */
 
-
-footer {
-    background-color: #c8e7f0;
+.schede img {
+    width: 100%;
+}
+.containerScheda {
+    margin-bottom: 40px;
+    border: 1px solid #dee1e3;
+    border-top: none;
+    padding-bottom: 40px;
 }
 
-footer a {
+.containerScheda h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #25a2c3;
+    color: white;
+    padding: 40px;
+}
+
+footer h2 {
+    color: white;
+    font-size: 30px;
+}
+
+footer hr {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer a, footer p, footer address {
     color: #c8e7f0;
 }
