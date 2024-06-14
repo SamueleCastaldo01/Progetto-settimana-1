@@ -54,6 +54,11 @@ header {
     margin-bottom: 20px;
 }
 
+.corsoWeb p {
+    padding-right: 60px;
+    padding-left:  60px;
+}
+
 .corsoWeb {
     background-image: url(../images/banner.jpg);
     background-size: cover;
@@ -87,8 +92,6 @@ button a {
     margin: 30px;
 }
 
-
-
 .tuttiTi {
     text-align: left;
 }
@@ -99,7 +102,6 @@ button a {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
 
 .tuttiTi img {
     text-align: right;
@@ -118,19 +120,20 @@ button a {
 }
 
 .garantisce {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     color: white;
 }
 
 .garantisce h2 {
     color: white;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .garantisce blockquote p {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 28px;
 }
 
 .garantisce footer {
@@ -140,7 +143,7 @@ button a {
 }
 
 .garantisce footer span {
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .garantisce p {
@@ -148,6 +151,11 @@ button a {
 }
 
 /* schede ++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.schede {
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
 
 .schede, .containerScheda {
     display: inline-block;
@@ -181,15 +189,23 @@ button a {
     padding-bottom: 60px;
 }
 
+.center {
+    margin: 0 auto;
+    width: 400px;
+    text-align: left;
+    padding-left: 70px;
+}
+
+
+
 footer h2 {
     color: white;
-    font-size: 32px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
 footer hr {
-    width: 270px;
-    margin: 0 auto;
+    width: 90%;
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -200,6 +216,7 @@ footer a, footer p, footer address {
 
 .copyR {
     font-size: 16px;
+    padding-left: 20px;
 }
 
 .material-symbols-outlined {
@@ -207,4 +224,5 @@ footer a, footer p, footer address {
     margin: 0px;
     line-height: 1.5;
     vertical-align: middle;
+    color: white;
 }

@@ -80,7 +80,6 @@ button a {
  padding-bottom: 15px;
 }
 
-
 .tuttiTi img {
     width: 75%;
     border-radius: 300px;
@@ -173,4 +172,5 @@ footer a, footer p, footer address {
     margin: 0px;
     line-height: 1.5;
     vertical-align: middle;
+    color: white
 }
