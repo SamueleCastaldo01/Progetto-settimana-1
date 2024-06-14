@@ -94,6 +94,8 @@ button a {
 
 .tuttiTi {
     text-align: left;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .tuttiTi p {
@@ -200,7 +202,7 @@ button a {
 
 footer h2 {
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 

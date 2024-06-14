@@ -23,6 +23,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #25a2c3;
 }
 
+.corsoWeb p, .tuttiTi p, .containerScheda p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 /* header +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 header {
@@ -47,12 +52,14 @@ header {
 .corsoWeb h1 {
     line-height: 1;
     margin-bottom: 20px;
+    font-size: 39px;
 }
 
 .corsoWeb {
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: center;
+    padding-bottom: 50px;
 }
 
 .corsoWeb button {
@@ -74,6 +81,9 @@ button a {
 }
 
 /* tuttiTi ++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.tuttiTi h3 {
+    margin-top: 10px;
+}
 
 .tuttiTi p {
  padding-top: 15px;
@@ -83,6 +93,7 @@ button a {
 .tuttiTi img {
     width: 75%;
     border-radius: 300px;
+    margin-bottom: 15px;
 }
 
 /* garantisce +++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -109,7 +120,7 @@ button a {
 
 .garantisce footer {
     padding-top: 10px;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 1.1;
 }
 
@@ -143,7 +154,7 @@ button a {
     background-color: #25a2c3;
     color: white;
     padding: 40px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 }
 
 footer h2 {
@@ -161,6 +172,10 @@ footer hr {
 
 footer a, footer p, footer address {
     color: #c8e7f0;
+}
+
+footer p {
+    font-style: normal;
 }
 
 .copyR {
