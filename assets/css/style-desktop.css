@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
     background-color: black;
     padding: 30px;
+    text-align: left;
 }
 
 .logo {
@@ -43,6 +44,10 @@ header {
 }
 
 /* corsoWeb ++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.corsoWeb {
+    padding: 210px;
+}
 
 .corsoWeb h1 {
     line-height: 1;
@@ -75,14 +80,32 @@ button a {
 
 /* tuttiTi ++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
+.tuttiTi, .tuttiTi div {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.tuttiTi div {
+    width: 45%;
+}
+
+
+.tuttiTi {
+    text-align: left;
+}
+
 .tuttiTi p {
- padding-top: 15px;
- padding-bottom: 15px;
+    width: 100%;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 
 .tuttiTi img {
-    width: 75%;
+    width: 350px;
     border-radius: 300px;
 }
 
@@ -124,14 +147,23 @@ button a {
 
 /* schede ++++++++++++++++++++++++++++++++++++++++++++++++*/
 
+.schede, .containerScheda {
+    display: inline-block;
+}
+
 .schede img {
     width: 100%;
+    height: 300px;
 }
 .containerScheda {
-    margin-bottom: 40px;
+    margin: 10px;
+    width: 400px;
     border: 1px solid #dee1e3;
     border-top: none;
-    padding-bottom: 40px;
+}
+
+.containerScheda p {
+    margin-bottom: 20px;
 }
 
 .containerScheda h4{
@@ -154,7 +186,7 @@ footer h2 {
 }
 
 footer hr {
-    width: 60%;
+    width: 250px;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 40px;
